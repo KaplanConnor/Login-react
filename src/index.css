@@ -1,0 +1,22 @@
+:root{
+      --light-primary-color:#D1C4E9;
+      --dark-primary-color:#512DA8;
+      --primary--color:#673AB7;
+      --tex-icons:#FFFFFF;
+      --accent-color:#607D8B;
+      --primary-text:#212121;
+      --secundary-text:#757575;
+      --divider-color:#BDBDBD;
+
+}
+*{
+      margin: 0;
+      padding:0;
+      box-sizing: border-box;
+}
+
+#root{
+      background-image: linear-gradient(to center,var(--dark-primary-color),var(--light-primary-color));
+      height: 100%;
+      width: 100%;
+}

@@ -1,0 +1,119 @@
+:root{
+      --light-primary-color:#D1C4E9;
+      --dark-primary-color:#512DA8;
+      --primary-color:#673AB7;
+      --tex-icons:#FFFFFF;
+      --accent-color:#607D8B;
+      --primary-text:#212121;
+      --secundary-text:#757575;
+      --divider-color:#BDBDBD;
+
+}
+
+.App{
+      border: 2px;
+      border-color: #212121;
+      background: linear-gradient(to right,var(--dark-primary-color),var(--accent-color),var(--dark-primary-color));
+      color: var(--tex-icons);
+      width: 100%;
+      height: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: sans-serif;
+}
+.container{
+      height: 600px;
+      width: 400px;
+      border-radius: 5px;
+      box-shadow: 0px 5px 15px var(--primary-text);
+      padding: 10px;
+      margin: 20px;
+      
+}
+.form_login{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+      
+}
+.input_form{
+      height: 40px;
+      width: 90%;
+      margin: 15px;
+      color: var(--secundary-text);
+      outline: none;
+      padding: 3px;
+
+}
+.label_form{
+      margin-left: 15px;
+      font-size: 12px;
+}
+#login_icon{
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      align-items: center;
+      color:var(--tex-icons);
+}
+.boton-nav{
+      border-radius: 15px;
+      padding: 10px;
+      background-color: var(--light-primary-color);
+      margin: 15px;
+      border: none;
+      color: var(--accent-color);
+}
+.boton-nav:hover{
+      background-color: var(--dark-primary-color);
+}
+
+.icon{
+      width: 40px;
+      height: 40px;
+      fill: var(--tex-icons);
+      padding: 10px;
+
+}
+.user_icon{
+      width: 70px;
+      height: 70px;
+      fill:var(--tex-icons);
+      margin-bottom: 40px;
+}
+.social_login{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 110px 20px 3px 20px;
+}
+#social_register{
+      margin-top: 15px;
+}
+#logo_face{
+      width: 50px;
+      height: 50px;
+      
+}
+.boton_submit{
+      
+      border-radius: 15px;
+      border: none;
+      padding: 10px;
+      color: var(--tex-icons);
+      background-color: var(--primary-color);
+      width: 50%;
+    
+}
+.boton_submit:hover{
+      background-color: var(--light-primary-color);
+}
+.boton_p{
+     
+      text-align: center;
+}
+#social_recovery{
+      margin-top: 190px;
+}
