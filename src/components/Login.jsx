@@ -52,7 +52,7 @@ const Login=() => {
   
 <div className="container">
       <div id="login_icon">
-            <UserIcon className="user_icon" style={{fill:iconColor}}/>
+            <UserIcon className="user_icon"/>
             <Padlock className="icon"/>
             <h1>login</h1>
       </div>
